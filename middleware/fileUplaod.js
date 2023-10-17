@@ -34,7 +34,7 @@ exports.fileUpload = (req,res, next) => {
     upload(req, res, err => {
         if(err){
             err.status = 400
-            next()
+            next(err)
         }else {
             next()
         }
