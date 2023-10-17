@@ -1,2 +1,4 @@
-# A Site to create Events for Students 
+# Union Central 
+ITIS-4166 Class Project 
+
 
