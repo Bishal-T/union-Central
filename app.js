@@ -10,8 +10,8 @@ const mainRoutes = require("./routes/mainRoutes")
 const app = express();
 
 // configure app
-let port = 8080;
-let host = "localhost";
+let port = 1000;
+
 app.set("view engine", "ejs");
 
 // mount middleware
@@ -53,6 +53,6 @@ app.use("/events", eventsRoutes);
 // })
 
 //start the server
-app.listen(port, host, () => {
+app.listen(port, () => {
   console.log("server is running on", port);
 });
